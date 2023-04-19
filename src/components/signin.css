@@ -1,0 +1,48 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signin-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .signin-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .signin-container form div {
+    margin-bottom: 10px;
+  }
+  
+  .signin-container label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+  }
+  
+  .signin-container input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .signin-container button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0077cc;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .signin-container button:hover {
+    background-color: #005ea3;
+  }
